@@ -344,15 +344,15 @@ hr{
 }
 
 .advantage:nth-child(1)::before{
-    content: url(/src/img/award-icon01.svg);
+    content: url('./src/img/award-icon01.svg');
 }
 
 .advantage:nth-child(2)::before{
-    content: url(/src/img/award-icon02.svg);
+    content: url('./src/img/award-icon02.svg');
 }
 
 .advantage:nth-child(3)::before{
-    content: url(/src/img/award-icon03.svg);
+    content: url('./src/img/award-icon03.svg');
 }
 
 .send-us{
