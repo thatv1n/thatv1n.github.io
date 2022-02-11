@@ -428,9 +428,9 @@ hr{
 }
 
 .socialmedia a:nth-child(1)::before{
-    content: url(/src/img/whazzap-icon.svg);
+    content: url('./src/img/whazzap-icon.svg');
 }
 
 .socialmedia a:nth-child(2)::before{
-    content: url(/src/img/insta-icon.svg);
+    content: url('./src/img/insta-icon.svg');
 }
