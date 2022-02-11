@@ -139,21 +139,21 @@ hr{
 }
 
 .clip-img:nth-child(1){
-    background: url(/src/img/header01.jpg);
+    background: url('./src/img/header01.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     /* background-size: 850px; */
 }
 .clip-img:nth-child(2){
-    background-image: url(/src/img/header02.jpg);
+    background-image: url('./src/img/header02.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     /* margin-left: 100px; */
 }
 .clip-img:nth-child(3){
-    background-image: url(/src/img/header03.jpg);
+    background-image: url('./src/img/header03.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
