@@ -7,20 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Ubuntu&display=swap"
-        rel="stylesheet"> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./css/libs/animate.css">
-    <title>Document</title>
+    <title>ПРОСВЯЗЬ</title>
 </head>
 
 <body>
@@ -31,7 +23,7 @@
             <input type="submit" value="ВХОД">
             <button id="close_singin" class="close_singin">X</button>
         </form>
-        <div id="singin_div" class="div-for-button">
+        <div id="singin_div" class="div-for-button singin_button_box">
             <!-- <button class="singin_button">Войти</button> -->
             <!-- <button id="exitBtn">Выйти</button> -->
         </div>
@@ -41,19 +33,19 @@
                 <img src="/src/img/logo.png" alt="logo">
                 <nav>
                     <ul>
-                        <li id="links">
+                        <li>
                             <a href="#">Контакты</a>
                         </li>
-                        <li id="links">
+                        <li>
                             <a href="#">Партнёры</a>
                         </li>
-                        <li id="links">
+                        <li>
                             <a href="#">Преимущества</a>
                         </li>
-                        <li id="links">
+                        <li>
                             <a href="#">Каталог</a>
                         </li>
-                        <li id="links">
+                        <li>
                             <a href="#">О&nbsp;компании</a>
                         </li>
                     </ul>
@@ -71,8 +63,8 @@
                     <hr>
                     <p class="second_p" style="line-height: 24px;">Индивидуальный подбор радиосистем для Вашей компании
                     </p>
-                    <input class="button wow pulse" type="button" data-wow-iteration="100" data-wow-duration="1s"
-                        value="Заказать звонок">
+                    <input class="button wow pulse header-button" type="button" data-wow-iteration="100"
+                        data-wow-duration="1s" value="Заказать звонок">
                 </div>
                 <div class="container-clip">
                     <div class="clip-img wow fadeInRightBig" data-wow-iteration="1" data-wow-duration="1s">
@@ -90,6 +82,7 @@
 
 
     </header>
+    <a class="back_to_top" title="Наверх"></a>
     <section>
         <div class="catalog">
             <div class="wrapp">
@@ -146,12 +139,12 @@
                             <h3 style="font-size:24px;font-weight:700;">Сервисное обслуживание</h3>
                             <p style=" color:#A4A2A3;">Своевременная проверка, настройка и ремонт радиостанций.</p>
                         </div>
-                        <div class="advantage wow bounceInLeft" data-wow-offset="300" data-wow-delay="0.3s">
+                        <div class="advantage wow bounceInLeft" data-wow-offset="300">
                             <h3 style="font-size:24px;font-weight:700;">Гарантия 1 год</h3>
                             <p style=" color:#A4A2A3;">Возврат товара при наличии заводского брака.
                                 Гарантийный ремонт.</p>
                         </div>
-                        <div class="advantage wow bounceInLeft" data-wow-offset="300" data-wow-delay="0.6s">
+                        <div class="advantage wow bounceInLeft" data-wow-offset="300">
                             <h3 style="font-size:24px;font-weight:700;">Доставка</h3>
                             <p style=" color:#A4A2A3;">Быстрая и удобная доставка
                                 по всему Казахстану.</p>
@@ -178,15 +171,15 @@
                 <div class="gallery">
 
 
-                    <img class="partner-pic wow bounceInUp" src="/src/img/elina-gallery.png" alt="">
+                    <img class="partner-pic wow fadeInUp" src="/src/img/elina-gallery.png" alt="">
 
-                    <img class="partner-pic wow bounceInUp" data-wow-delay="0.3s" src="/src/img/hytera-gallery.png"
+                    <img class="partner-pic wow fadeInUp" data-wow-delay="0.3s" src="/src/img/hytera-gallery.png"
                         alt="">
 
-                    <img class="partner-pic wow bounceInUp" data-wow-delay="0.6s" src="/src/img/motorola-gallery.png"
+                    <img class="partner-pic wow fadeInUp" data-wow-delay="0.6s" src="/src/img/motorola-gallery.png"
                         alt="">
 
-                    <img class="partner-pic wow bounceInUp" data-wow-delay="0.9s" src="/src/img/sprecord-gallery.png"
+                    <img class="partner-pic wow fadeInUp" data-wow-delay="0.9s" src="/src/img/sprecord-gallery.png"
                         alt="">
 
                 </div>
@@ -196,7 +189,7 @@
     </section>
     <section>
         <div class="send-us">
-            <h2>Оставьте заявку</h2>
+            <h2 id="send-us">Оставьте заявку</h2>
             <p class="send-us_headline">С Вами свяжется Ваш специалист и поможет подобрать оборудование</p>
             <form class="form" action="" method="post" name="sender">
                 <input class="input" type="text" name="sender_name" placeholder="Имя">

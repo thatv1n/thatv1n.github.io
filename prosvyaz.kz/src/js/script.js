@@ -124,15 +124,6 @@ window.addEventListener('DOMContentLoaded', function () {
       });
     };
   }
-  let links = document.querySelectorAll('#links');
-
-  slideTo(links[0], document.querySelector('.footer'));
-  slideTo(links[1], document.querySelector('.partners'));
-  slideTo(links[2], document.querySelector('.awards'));
-  slideTo(links[3], document.querySelector('.catalog'));
-  slideTo(links[4], document.querySelector('.about'));
-
-
 
   function slideTo(a, b) {
     a.addEventListener('click', (e) => {
@@ -144,4 +135,31 @@ window.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  let links = document.querySelectorAll('a[href*="#"]');
+
+  slideTo(document.querySelector('.header-button'), document.querySelector('#send-us'));
+  slideTo(links[0], document.querySelector('.footer'));
+  slideTo(links[1], document.querySelector('.partners'));
+  slideTo(links[2], document.querySelector('.awards'));
+  slideTo(links[3], document.querySelector('.catalog'));
+  slideTo(links[4], document.querySelector('.about'));
+
+
+  function trackScroll() {
+    var scrolled = window.pageYOffset;
+    var coords = document.documentElement.clientHeight;
+
+    if (scrolled > coords) {
+      goTopBtn.classList.add('back_to_top-show');
+    }
+    if (scrolled < coords) {
+      goTopBtn.classList.remove('back_to_top-show');
+    }
+  }
+
+  var goTopBtn = document.querySelector('.back_to_top');
+
+  window.addEventListener('scroll', trackScroll);
+
+  slideTo(goTopBtn, document.querySelector('.header-line'));
 });

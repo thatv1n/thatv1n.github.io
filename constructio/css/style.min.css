@@ -1,6 +1,6 @@
 .promo {
   padding-bottom: 130px;
-  background: url(/img/pormo.jpg) center center/cover no-repeat;
+  background: url('../img/pormo.jpg') center center/cover no-repeat;
 }
 .head {
   display: flex;
