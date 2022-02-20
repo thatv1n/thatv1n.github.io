@@ -1,0 +1,327 @@
+@import url('./fonts.css');
+
+.wrapper {
+	background: url('../img/Bkg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 0px;
+}
+
+.container {
+	max-width: 1260px;
+	margin: 0 auto;
+}
+
+.header__title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 40px;
+	color: #2b2b2a;
+	text-transform: uppercase;
+}
+
+.header__title h1 {
+	font-size: 49px;
+}
+
+.header__title .header_subtittle {
+	font-family: 'Myriad Pro Light';
+	text-align: center;
+	font-size: 16px;
+	margin: 20px 16px 0 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+
+}
+
+.header_subtittle a {
+	color: #98a2b6;
+}
+
+.menu {
+	margin-top: 32px;
+	border-top: 1px solid #9e9e9e;
+	border-bottom: 1px solid #9e9e9e;
+
+}
+
+.menu_ul {
+	font-family: 'Myriad Pro Light';
+	font-weight: bold;
+	color: #2b2b2a;
+	max-width: 827px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 56px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 16px;
+	flex-wrap: wrap;
+}
+
+.menu_ul li {
+	margin: 0 5px;
+}
+
+.active_li {
+	border-bottom: 1px solid #2b2b2a;
+	font-weight: bold;
+	font-family: 'Myriad Pro Semibold';
+}
+
+.inner__content {
+	margin-top: 5px;
+	background: url('../img/bkg_content.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Myriad Pro Light';
+	font-weight: bold;
+}
+
+.content_title {
+	padding-top: 61px;
+	padding-left: 8%;
+	padding-bottom: 53px;
+	max-width: 378px;
+}
+
+.content_subtitle {
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.content_title h2 {
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #59688a;
+	font-weight: bold;
+}
+
+.content_text {
+	font-size: 17px;
+	color: #2b2b2a;
+	line-height: 26px;
+	margin-top: 25px;
+}
+
+.content_title a {
+	color: #2a3b63;
+	font-weight: bold;
+}
+
+.content_blue {
+	color: #2a3b63;
+	font-weight: bold;
+}
+
+.categories_title {
+	background-color: #59688a;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 30px;
+	text-align: center;
+	font-family: 'Myriad Pro Light';
+	font-size: 18px;
+	margin-top: 4px;
+	letter-spacing: 1px;
+}
+
+.categories_blocks {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.categories_block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 290px;
+	height: 287px;
+	margin-top: 27px;
+}
+
+.categories_block-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	color: #fff;
+	font-family: 'Myriad Pro Light';
+	text-transform: uppercase;
+	font-size: 18px;
+	border: 2px solid #fff;
+	text-align: center;
+	width: 168px;
+	height: 58px;
+	padding: 0 10px;
+	cursor: pointer;
+}
+
+
+.categories_block-title img {
+	position: absolute;
+	right: -27px;
+}
+
+.block-first {
+	background: url('../img/Group 1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.block-second {
+	background: url('../img/Group 2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.block-third {
+	background: url('../img/Group 3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.block-fourth {
+	background: url('../img/Group 4.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about_company {
+	display: flex;
+	margin-top: 60px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.about_company-img {
+	position: relative;
+	width: 422px;
+	height: 422px;
+	border: 1px solid #838589;
+	margin-left: 9%;
+	margin-bottom: 8.4%;
+	margin-right: 9%;
+}
+
+.img_bow {
+	position: absolute;
+	top: 65.6%;
+	left: 14%;
+	z-index: 1;
+	width: 98%;
+}
+
+.img_layer {
+	position: absolute;
+	top: 29px;
+	right: 25px;
+	width: 100%;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+.about_company-content {
+	margin-left: 10px;
+	margin-top: 38px;
+	max-width: 536px;
+}
+
+.about_company-subtitle {
+	text-transform: uppercase;
+	font-family: 'Myriad Pro Light';
+	font-size: 17px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.about_companye-title {
+	font-size: 39px;
+	text-transform: uppercase;
+	font-family: 'Lighthaus Regular';
+
+}
+
+.about_company-content hr {
+	width: 108px;
+	background: #000;
+	height: 4px;
+	margin: 28px 0 33px 0px;
+}
+
+.about_companye-text {
+	font-family: 'Myriad Pro Light';
+	font-weight: bold;
+	letter-spacing: 1.2px;
+	line-height: 17px;
+	color: #393938;
+	margin-bottom: 50px;
+}
+
+.inner-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #59688a;
+	height: 71px;
+	padding: 0 50px;
+}
+
+.footer_content {
+	font-family: 'Myriad Pro Light';
+	font-weight: 100;
+	color: #fff;
+	font-size: 16px;
+}
+
+.footer_content a {
+	color: #a6b4d2;
+}
+
+.footer_content::selection {
+	background: #c1cadc;
+	/* Safari */
+}
+
+.footer_content::-moz-selection {
+	background: #c1cadc;
+	/* Firefox */
+}
+
+
+@media (max-width: 425px) {
+	.about_company-img {
+		height: 356px;
+	}
+
+	.img_bow {
+		left: 13%;
+	}
+}
+
+@media (max-width: 375px) {
+	.about_company-img {
+		height: 318px;
+	}
+
+	.img_bow {
+		left: 11.5%;
+	}
+}
+
+@media (max-width: 320px) {
+	.about_company-img {
+		height: 279px;
+	}
+
+	.img_bow {
+		left: 9.5%;
+	}
+}

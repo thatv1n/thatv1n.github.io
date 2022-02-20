@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Myriad Pro Light';
+  src: url('../fonts/MyriadPro/MyriadPro-Light.eot');
+  src: url('../fonts/MyriadPro/MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro/MyriadPro-Light.woff') format('woff'),
+    url('../fonts/MyriadPro/MyriadPro-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url('../fonts/MyriadPro/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro Semibold';
+  src: url('../fonts/MyriadPro/MyriadPro-Semibold.eot');
+  src: url('../fonts/MyriadPro/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro/MyriadPro-Semibold.woff') format('woff'),
+    url('../fonts/MyriadPro/MyriadPro-Semibold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lighthaus Regular';
+  src: url('../fonts/Lighthaus/Lighthaus.eot');
+  src: local('../fonts/Lighthaus/Lighthaus'),
+    url('../fonts/Lighthaus.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Lighthaus/Lighthaus.woff') format('woff'),
+    url('../fonts/Lighthaus/Lighthaus.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
